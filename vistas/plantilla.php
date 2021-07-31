@@ -6,7 +6,7 @@ $url =  Ruta::ctrRuta();
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="icon" href="<?php echo $url; ?>vistas/img/plantilla/invo.ico">
     <meta charset="UTF-8">
@@ -25,13 +25,17 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="vistas/libs/fontawesome/css/solid.css">
     <!-- Estilos de toda la aplicación web -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/plantilla.css">
+
+
     <!-- Estilos bootstrap -->
-    <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css">
+    <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
 
     <!-- PLUGINS DE JS -->
     <script src="<?php echo $url; ?>vistas/libs/jquery/jquery.min.js"></script>
-    <script src="<?php echo $url; ?>vistas/libs/bootstrap/js/popper.min.js"></script>
-    <script src="<?php echo $url; ?>vistas/libs/bootstrap/js/bootstrap.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <!-- script src="<?php echo $url; ?>vistas/libs/bootstrap/js/popper.min.js"></script -->
+    <script src="<?php echo $url; ?>vistas/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $url; ?>vistas/libs/bootstrap/js/bootstrap.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" ></script>
     <script src="<?php echo $url; ?>vistas/libs/fontawesome/js/fontawesome.js"></script>
     <script src="<?php echo $url; ?>vistas/libs/fontawesome/js/brands.js"></script>
     <script src="<?php echo $url; ?>vistas/libs/fontawesome/js/solid.js"></script>
@@ -50,14 +54,7 @@ $url =  Ruta::ctrRuta();
     if(isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok"){
              
     ?>
-    <div class="header">
-        <div class="container">
 
-
-
-           
-        </div>
-    </div>
     <?php
             if(isset($_GET["ruta"])){
                 
