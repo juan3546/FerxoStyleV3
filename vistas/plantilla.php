@@ -25,8 +25,8 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="vistas/libs/fontawesome/css/solid.css">
     <!-- Estilos de toda la aplicación web -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/plantilla.css">
-
-
+    <!-- Estilos menu -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/menu.css">
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
@@ -111,9 +111,8 @@ $url =  Ruta::ctrRuta();
 
     
 
-    <script src="<?php echo $url; ?>vistas/dist/js/menu.js"></script>
-    <script src="<?php echo $url; ?>vistas/js/inicio.js"></script>
+    
     <script src="<?php echo $url; ?>vistas/dist/js/login.js"></script>
-    <script src="<?php echo $url; ?>vistas/js/productos.js"></script>
+    
 </body>
 </html>
