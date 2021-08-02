@@ -79,7 +79,7 @@ $url =  Ruta::ctrRuta();
                 include "modulos/pie.php"; 
             }
     }else{
-            
+       
             if(isset($_GET["ruta"])){
                 
                 $rutas = explode("/", $_GET["ruta"]);
@@ -113,6 +113,8 @@ $url =  Ruta::ctrRuta();
 
     
     <script src="<?php echo $url; ?>vistas/dist/js/login.js"></script>
+    <script src="<?php echo $url;  ?>vistas/dist/js/menu.js"></script>
+
     
 </body>
 </html>
