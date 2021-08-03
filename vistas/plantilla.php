@@ -31,6 +31,10 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/cotizacion.css">
     <!-- Estilos de inicio -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/inicio.css">
+    <!-- Estilos de iconos -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/icons.css">
+    <!-- Estilos de grid -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/grid.css">
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
