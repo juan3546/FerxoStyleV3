@@ -27,6 +27,8 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/plantilla.css">
     <!-- Estilos menu -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/menu.css">
+        <!-- Estilos de pedidos Personalizados -->
+        <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/cotizacion.css">
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
@@ -56,6 +58,7 @@ $url =  Ruta::ctrRuta();
     ?>
 
     <?php
+    
             if(isset($_GET["ruta"])){
                 
                 $rutas = explode("/", $_GET["ruta"]);
@@ -65,7 +68,7 @@ $url =  Ruta::ctrRuta();
                     include "modulos/menu.php"; 
                     include "modulos/productos.php";
                     include "modulos/pie.php"; 
-                }else if($rutas[0] == "inicio" || $rutas[0] == "salir" || $rutas[0] == "detalle-del-producto" || $rutas[0] == "carrito"  || $rutas[0] == "articulos-para-hombre" || $rutas[0] == "articulos-para-mujeres" || $rutas[0] == "articulos-para-ninios" || $rutas[0] == "articulos-personalizados" || $rutas[0] == "articulos-en-oferta" || $rutas[0] == "articulos-nuevos" || $rutas[0] == "cotizacion"){
+                }else if($rutas[0] == "inicio" || $rutas[0] == "salir" || $rutas[0] == "detalle-del-producto" || $rutas[0] == "carrito"  || $rutas[0] == "articulos-para-hombre" || $rutas[0] == "articulos-para-mujeres" || $rutas[0] == "articulos-para-ninios" || $rutas[0] == "articulos-personalizados" || $rutas[0] == "articulos-en-oferta" || $rutas[0] == "articulos-nuevos" || $rutas[0] == "cotizacion" || $rutas[0] == "personalizados"){
                     
                     include "modulos/menu.php"; 
                     include "modulos/".$rutas[0].".php";
@@ -79,7 +82,7 @@ $url =  Ruta::ctrRuta();
                 include "modulos/pie.php"; 
             }
     }else{
-       
+        
             if(isset($_GET["ruta"])){
                 
                 $rutas = explode("/", $_GET["ruta"]);
@@ -113,7 +116,8 @@ $url =  Ruta::ctrRuta();
 
     
     <script src="<?php echo $url; ?>vistas/dist/js/login.js"></script>
-    <script src="<?php echo $url;  ?>vistas/dist/js/menu.js"></script>
+    <script src="<?php echo $url; ?>vistas/dist/js/menu.js"></script>
+    <script src="<?php echo $url; ?>vistas/js/correo.js"></script>
 
     
 </body>

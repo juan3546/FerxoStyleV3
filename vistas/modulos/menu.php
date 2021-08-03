@@ -19,6 +19,12 @@ $servidor =  Ruta::ctrRutaServidor();
         <li class="nav-item mx-3">
           <a class="nav-link text-dark" href="#" >Personalizados</a>
         </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link text-dark" href="<?php echo $url; ?>personalizados" >Pedidos personalizados</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link text-dark" href="<?php echo $url; ?>cotizacion" >Cotizaciones</a>
+        </li>
       </ul>
       <form class="d-flex">
         <button class="btn btn-success mx-3 btn-lg" type="submit">Entrar</button>
