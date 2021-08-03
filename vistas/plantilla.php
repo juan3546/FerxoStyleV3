@@ -27,8 +27,10 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/plantilla.css">
     <!-- Estilos menu -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/menu.css">
-        <!-- Estilos de pedidos Personalizados -->
-        <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/cotizacion.css">
+    <!-- Estilos de pedidos Personalizados -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/cotizacion.css">
+    <!-- Estilos de inicio -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/inicio.css">
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >

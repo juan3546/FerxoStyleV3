@@ -1,7 +1,7 @@
 <section id="=ImagenYTextoBanner" >
   <div id="imgp">
-  <div class="card" >
-    <img src="<?php echo $url; ?>vistas/img/plantilla/banner.jpg" class="card-img img-fluid" height="100px">
+  <div class="card parallax" >
+    <!--img src="<?php echo $url; ?>vistas/img/plantilla/banner.jpg" class="card-img img-fluid" height="100px" -->
   <div class="card-img-overlay mt-5 d-flex">
       <div class="container-fuid mx-5 mt-5  ms-auto">
       <h2 class="card-title titulo">¡Dale un nuevo estilo <br> a tu entrenamiento!</h2>
