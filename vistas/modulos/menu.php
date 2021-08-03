@@ -9,21 +9,21 @@ $servidor =  Ruta::ctrRutaServidor();
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mx-4 mb-2 mb-lg-0 large-text-right">
+      <ul class="navbar-nav ms-auto mx-4 mb-2 mb-lg-0 ">
         <li class="nav-item mx-5">
-          <a class="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active text-dark" aria-current="page" href="#"><strong>Inicio</strong> </a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="#">Productos</a>
+          <a class="nav-link text-dark" href="#"><strong>Productos</strong> </a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="#" >Personalizados</a>
+          <a class="nav-link text-dark" href="#" ><strong>Personalizados</strong></a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="<?php echo $url; ?>personalizados" >Pedidos personalizados</a>
+          <a class="nav-link text-dark" href="<?php echo $url; ?>personalizados"><strong>Pedidos personalizados</strong></a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="<?php echo $url; ?>cotizacion" >Cotizaciones</a>
+          <a class="nav-link text-dark" href="<?php echo $url; ?>cotizacion"><strong> Cotizaciones</strong></a>
         </li>
       </ul>
       <form class="d-flex">

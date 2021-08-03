@@ -105,16 +105,9 @@ $url =  Ruta::ctrRuta();
                 include "modulos/menu.php"; 
                 include "modulos/inicio.php";
                 include "modulos/pie.php"; 
-            }
-            
+            }    
     }
  ?>
-
-
-
-    
-
-    
     <script src="<?php echo $url; ?>vistas/dist/js/login.js"></script>
     <script src="<?php echo $url; ?>vistas/dist/js/menu.js"></script>
     <script src="<?php echo $url; ?>vistas/js/correo.js"></script>

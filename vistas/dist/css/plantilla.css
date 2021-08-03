@@ -7,5 +7,22 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .titulo{
-    font-size: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.nuevos::after{
+    content: '';
+    background: #085e97;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.botonH{
+    border-radius: 15px;
+}
+.tajetas:hover{
+    transform: translate(10px);
 }
