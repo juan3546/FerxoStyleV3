@@ -14,5 +14,23 @@
 }
 
 .botonH{
-    border-radius: 30px !important;
+    border-radius: 40px !important;
+}
+.linea{
+    width: 70px !important;
+    height: 5px;
+    background: cadetblue;
+}
+.precio{
+    font-size: 1.2rem;
+}
+.tarjeta{
+    box-shadow: 0 0 8px 3px #ccc;
+}
+#verde{
+    background: radial-gradient(#fff, #beffaa);
+}
+#ModeloPersonalizado{
+    font-size: 50px;
+    line-height: 60px;
 }

@@ -31,6 +31,8 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/cotizacion.css">
     <!-- Estilos de inicio -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/inicio.css">
+    <!-- Estilos de login -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/login.css">
     <!-- Estilos de iconos -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/icons.css">
     <!-- Estilos de grid -->
@@ -38,6 +40,8 @@ $url =  Ruta::ctrRuta();
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="vistas/libs/OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vistas/libs/OwlCarousel/css/owl.theme.default.css">
 
     <!-- PLUGINS DE JS -->
     <script src="<?php echo $url; ?>vistas/libs/jquery/jquery.min.js"></script>
@@ -48,6 +52,7 @@ $url =  Ruta::ctrRuta();
     <script src="<?php echo $url; ?>vistas/libs/fontawesome/js/brands.js"></script>
     <script src="<?php echo $url; ?>vistas/libs/fontawesome/js/solid.js"></script>
     <script src="<?php echo $url; ?>vistas/libs/sweetalert2/sweetalert2.all.js"></script>
+    <script src="vistas/libs/OwlCarousel/js/owl.carousel.js"></script>
 </head>
 <body>
 
@@ -116,6 +121,7 @@ $url =  Ruta::ctrRuta();
  ?>
     <script src="<?php echo $url; ?>vistas/dist/js/login.js"></script>
     <script src="<?php echo $url; ?>vistas/dist/js/menu.js"></script>
+    <script src="<?php echo $url; ?>vistas/dist/js/plantilla.js"></script>
     <script src="<?php echo $url; ?>vistas/js/correo.js"></script>
 
     

@@ -4,21 +4,15 @@
 }
 
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 .titulo{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.3rem;
+    text-align: right;
 }
-.nuevos::after{
-    content: '';
-    background: #085e97;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.titulo2{
+    text-align: right;
 }
 .botonH{
     border-radius: 15px;
@@ -26,3 +20,27 @@ body{
 .tajetas:hover{
     transform: translate(10px);
 }
+@media (min-width: 768px) {
+    .titulo{
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: right !important;
+    }
+  }
+  
+  /* escritorio normales */
+  @media (min-width: 992px) {
+    .titulo{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: right !important;
+    }
+  }
+  
+  /* pantallas grandes */
+  @media (min-width: 1200px) {
+    .titulo{
+        font-weight: bold;
+        font-size: 3rem;
+    }
+  }

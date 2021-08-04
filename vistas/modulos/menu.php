@@ -10,8 +10,8 @@ $servidor =  Ruta::ctrRutaServidor();
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mx-4 mb-2 mb-lg-0 ">
-        <li class="nav-item mx-5">
-          <a class="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
+        <li class="nav-item mx-3">
+          <a class="nav-link active text-dark" aria-current="page" href="inicio">Inicio</a>
         </li>
         <li class="nav-item mx-3">
           <a class="nav-link text-dark" href="#">Productos </a>
@@ -26,7 +26,7 @@ $servidor =  Ruta::ctrRutaServidor();
           <a class="nav-link text-dark" href="<?php echo $url; ?>cotizacion">Cotizaciones</a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="<?php echo $url; ?>cotizacion">Iniciar Sesión</a>
+          <a class="nav-link text-dark" href="<?php echo $url; ?>login">Iniciar Sesión</a>
         </li>
       </ul>
     </div>
