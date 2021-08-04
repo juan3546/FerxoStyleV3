@@ -49,9 +49,14 @@ class ControladorCorreo{
                    // HTML email starts here
                    $full_name  = strip_tags($_POST['nombrePersonalizados']);
                    $email      = strip_tags($_POST['correoPersonalizados']);
-                   $subject    = "Sending HTML eMail using PHPMailer.";
                    $text_message    = "Necesito ".$_POST["cantidadPersonalizados"]." diseño personalizado con las siguientes características..";    
                    $mail->AddEmbeddedImage('vistas/img/plantilla/logo.png', 'logo', 'attachment', 'base64', 'image/png');  
+                   if($_POST['telefonoPersonalizados'] != ""){
+                        $telefono = ' Y mi numero Telefónico es '.$_POST['telefonoPersonalizados'];
+                   }else{
+                        $telefono = "";
+                   }
+                   
    $message  = "<html><body>";
    
    $message .= "<table width='100%' bgcolor='#e0e0e0' cellpadding='0' cellspacing='0' border='0'>";
@@ -73,7 +78,7 @@ class ControladorCorreo{
       
       <tr>
        <td colspan='4' style='padding:15px;'>
-        <p style='font-size:20px;'>Hola Ferxo Style Me llamo ".$full_name."</p>
+        <p style='font-size:20px;'>Hola Ferxo Style Me llamo ".$full_name.", mi correo es ".$_POST["correoPersonalizados"].$telefono."</p>
         <hr />
         <p style='font-size:25px;'></p>
         <p style='font-size:15px; font-family:Verdana, Geneva, sans-serif;'>".$text_message.".</p>
@@ -91,16 +96,8 @@ class ControladorCorreo{
    
    $message .= "</body></html>";
    
-   // HTML email ends here
+
                  //Content
-                
-                 $cantidadProducto = "Cantidad de producto solicitado: ".$_POST["cantidadPersonalizados"]."<br>";
-                 $html = '<img src="cid:logo" alt="" width="330px" class="mx-5">
-                        <p>El cliente <strong>'. $_POST["nombrePersonalizados"].'</strong> con el correo <strong>'.$_POST["correoPersonalizados"].'</strong> </p>
-                        <br> 
-                        <p>Solicito un Pedido Personalizado con los siguientes detalles: <p>
-                        <br>
-                        <ul> <li>'.$cantidadProducto.'<li>  <li> Descripción= '.$_POST["detallePersonalizados"].'<li> </ul>';
                  $mail->isHTML(true);                                  //Set email format to HTML
                  $mail->Subject = 'Pedido Personalizado';
                  $mail->Body    =  $message;
