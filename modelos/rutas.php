@@ -3,7 +3,7 @@
 class Ruta{
     public function ctrRuta(){
         return "http://localhost/FerxoStyleV3/";
-        //return "http://localhost/ecommerceV3/FerxoStyleV3/";
+    //    return "http://localhost/ecommerceV3/FerxoStyleV3/";
        // return "https://ferxostyle.com.mx/";
     }
 
