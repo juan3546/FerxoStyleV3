@@ -107,12 +107,16 @@ class ControladorCorreo{
      
                  if($mail->send()){
                      echo '<br><br><div class="alert alert-success">Correo Enviado Correctamente</div>';
+                 }else{
+                    echo '<br><br><div class="alert alert-danger">Error al enviar</div>';
                  }
                  
                  
              } catch (Exception $e) {
                  echo "Error Al enviar el correo: {$mail->ErrorInfo}";
              }
+        }else{
+            echo '<br><br><div class="alert alert-danger">Debe de capturar los datos que tienen signo ‘*’ y sin caracteres especiales</div>';
         }
 
    
