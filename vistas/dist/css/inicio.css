@@ -24,9 +24,57 @@
 .precio{
     font-size: 1.2rem;
 }
-.tarjeta{
+/*
+.tarjeta:hover{
     box-shadow: 0 0 8px 3px #ccc;
 }
+*/
+.tarjeta{
+    height: 268px;
+}
+.tarjeta .text-danger{
+    color: #4898c3 !important;
+}
+.card-img-top{
+    height: 40vh;
+    width: 25%;
+    object-fit: fill;
+}
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color: black;
+}
+
+.owl-theme, .owl-nav[class*="owl-"]:hover {
+    background: transparent;
+}
+
+.tarjeta:focus, .tarjeta:hover{
+    top: -2;
+    -webkit-box-shadow: 0 2px 40px 0 rgba(0 ,0, 0, 0.2);
+    box-shadow: 0 2px 40px o rgb(0, 0, 0, 0.2);
+}
+
+.tarjeta:focus img, .tarjeta:hover img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 #verde{
     background: radial-gradient(#fff, #beffaa);
 }

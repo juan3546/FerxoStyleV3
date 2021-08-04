@@ -43,10 +43,10 @@
  </div>
  <div class="row container-fluid">
  <div class="mt-5 col-12 pb-4 align-content-center justify-content-center" id="carruselProductos">
-   <div class="owl-carousel mb-4">
+   <div class="owl-carousel owl-theme mb-4">
    <div class="item">
-     <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo2.png" width="60px" class="card-img-top" alt="...">
+     <div class="card tarjeta" >
+       <img src="vistas/img/plantilla/Modelo2.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
       <div class="card-body">
        <h5 class="card-title text-center">Modelo 1</h5>
        <p class="text-center text-danger precio">$400</p>
@@ -54,8 +54,8 @@
      </div>
    </div>
   <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo3.png" width="60px" class="card-img-top" alt="...">
+    <div class="card tarjeta" >
+       <img src="vistas/img/plantilla/Modelo3.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
     <div class="card-body">
        <h5 class="card-title text-center">Modelo 2</h5>
        <p class="text-center text-danger precio">$400</p>
@@ -63,8 +63,8 @@
      </div>
     </div>
   <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo4.png" width="60px" class="card-img-top" alt="...">
+    <div class="card tarjeta" >
+       <img src="vistas/img/plantilla/Modelo4.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
     <div class="card-body">
        <h5 class="card-title text-center">Modelo 3</h5>
        <p class="text-center text-danger precio">$400</p>
@@ -72,8 +72,8 @@
      </div>
   </div>
   <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo5.png" width="60px" class="card-img-top" alt="...">
+    <div class="card tarjeta" >
+       <img src="vistas/img/plantilla/Modelo5.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
     <div class="card-body">
        <h5 class="card-title text-center">Modelo 4</h5>
        <p class="text-center text-danger precio">$400</p>
@@ -81,8 +81,8 @@
      </div>
     </div>
   <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/playera1.png" width="60px" class="card-img-top" alt="...">
+    <div class="card tarjeta" >
+       <img src="vistas/img/plantilla/playera1.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
     <div class="card-body">
        <h5 class="card-title text-center">Modelo 5</h5>
        <p class="text-center text-danger precio">$400</p>
@@ -110,7 +110,7 @@
 </section>
 <section id="comentarios" class="mt-5">
 <div class="mt-5 col-12 pb-4 align-content-center justify-content-center" id="carruselProductos">
-   <div class="owl-carousel mb-4">
+   <div class="owl-carousel owl-theme mb-4">
    <div class="item">
      <div class="card tarjeta" style="width: 80%">
       <div class="card-body text-center">
