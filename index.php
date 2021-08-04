@@ -18,12 +18,11 @@ require_once "modelos/rutas.php";
 
 
 // PLUGINS
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
-require '../libs/PHPMailer/Exception.php';
-require '../libs/PHPMailer/PHPMailer.php';
-require '../libs/PHPMailer/SMTP.php';
+
+require 'vistas/libs/PHPMailer/Exception.php';
+require 'vistas/libs/PHPMailer/PHPMailer.php';
+require 'vistas/libs/PHPMailer/SMTP.php';
 
 $plantilla = new ControladorPlantilla();
 $plantilla -> ctrPlantilla();

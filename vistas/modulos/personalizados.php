@@ -41,6 +41,10 @@
                     </div>
 
                     <button type="submit" class="btn btn-warning text-white w-100 mt-auto">Enviar</button>
+                    <?php
+                        $enviarCorreo = new ControladorCorreo();
+                        $enviarCorreo -> ctrEnviarPedidoPersonalizado();
+                    ?>
                 </form>
 
                 <p class="font-weight-blod text-center text-muted mt-4">O envía un texto por nuestras redes sociales</p>
