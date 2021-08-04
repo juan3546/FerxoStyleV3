@@ -1,7 +1,6 @@
 <section id="=ImagenYTextoBanner" >
   <div>
   <div class="card parallax" >
-    <!--img src="<?php echo $url; ?>vistas/img/plantilla/banner.jpg" class="card-img img-fluid" height="100px" -->
   <div class="card-img-overlay mt-5 d-flex">
       <div class="container-fuid mx-5 mt-5  ms-auto">
       <h2 class="card-title titulo">¡Dale un nuevo estilo <br> a tu entrenamiento!</h2>
@@ -16,22 +15,22 @@
 <section id="categorias" class="container-fluid ">
  <div class="row p-5">
  <div class="row row-cols-2 row-cols-md-3 g-5" >
-  <div class="col tarjetas">
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
   <h5 class="text-dark">HOMBRES</h5>
     <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/hombres.jpg" class="card-img-top" alt="...">  
+      <img src="<?php echo $url; ?>vistas/img/plantilla/hombres.jpg" class="card-img-top" >  
     </div>
   </div>
-  <div class="col tarjetas">
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
   <h5 class="text-dark">NIÑOS</h5>
     <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/ninios.jpg" class="card-img-top" alt="...">  
+      <img src="<?php echo $url; ?>vistas/img/plantilla/ninios.jpg" class="card-img-top" >  
     </div>
   </div>
-  <div class="col tarjetas">
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
   <h5 class="text-dark">MUJERES</h5>
     <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/mujeres.jpg" class="card-img-top" alt="...">  
+      <img src="<?php echo $url; ?>vistas/img/plantilla/mujeres.jpg" class="card-img-top" >  
     </div>
   </div>
 </div>
@@ -94,12 +93,12 @@
  </div>
  </div>
 </section>
-<section id="verde" class="mt-4 px-4">
- <div class="row container-fluid mb-2">
-   <div class="col-6 d-flex">
-      <img class="m-auto mt-5" src="vistas/img/plantilla/playera1.png" alt="" id="imagen-verde" width="50%">
+<section id="verde" class="mt-4 px-4 ">
+ <div class="row container-fluid mb-2 d-flex">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto">
+      <img class="m-auto" src="vistas/img/plantilla/playera1.png" alt="" id="imagen-verde" width="50%">
    </div>
-   <div class="col-6">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
     <p class="text-center mt-4">Disponible exclusivamente en FerxoStyle</p>
     <h1 class="text-text-left mx-4 mt-3" id="ModeloPersonalizado">Modelos <br> Personalizados</h1>
     <p class="pl-5 p-4 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium eligendi sed facilis mollitia maxime cumque rem sint labore, aperiam aut ex recusandae, neque temporibus, totam minima perferendis iusto. Quod?
@@ -109,52 +108,17 @@
    </div>
  </div>
 </section>
-<section id="comentarios">
+<section id="comentarios" class="mt-5">
 <div class="mt-5 col-12 pb-4 align-content-center justify-content-center" id="carruselProductos">
    <div class="owl-carousel mb-4">
    <div class="item">
      <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo2.png" width="60px" class="card-img-top" alt="...">
-      <div class="card-body">
-       <h5 class="card-title text-center">Modelo 1</h5>
-       <p class="text-center text-danger precio">$400</p>
+      <div class="card-body text-center">
+         <i class="fas fa-quote-left comillas mt-4"></i>
+          <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore sed rem assumenda, blanditiis voluptates! Dolorem harum vel, odio corporis animi enim quasi alias id, blanditiis porro sit iusto obcaecati?</p>
+          <img src="vistas/img/plantilla/user-1.png" alt="" class="imagenComentarios mt-4 mx-auto">
+          <h5>Cristina</h5>
       </div>
      </div>
    </div>
-  <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo3.png" width="60px" class="card-img-top" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 2</h5>
-       <p class="text-center text-danger precio">$400</p>
-    </div>
-     </div>
-    </div>
-  <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo4.png" width="60px" class="card-img-top" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 3</h5>
-       <p class="text-center text-danger precio">$400</p>
-    </div>
-     </div>
-  </div>
-  <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/Modelo5.png" width="60px" class="card-img-top" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 4</h5>
-       <p class="text-center text-danger precio">$400</p>
-    </div>
-     </div>
-    </div>
-  <div class="item">
-    <div class="card tarjeta" style="width: 80%">
-       <img src="vistas/img/plantilla/playera1.png" width="60px" class="card-img-top" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 5</h5>
-       <p class="text-center text-danger precio">$400</p>
-    </div>
-     </div>
-    </div>
 </section>

@@ -37,9 +37,9 @@ $(".owl-carousel").owlCarousel({
     nav: true,
     loop: true,
     lazyLoad: true,
-    margin: 4,
+    margin: 3,
     padding: 4,
-    stagePadding: 5,
+    stagePadding: 2,
     responsive: {
         0 : {
             items: 1,

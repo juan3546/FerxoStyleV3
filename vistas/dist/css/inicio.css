@@ -34,3 +34,11 @@
     font-size: 50px;
     line-height: 60px;
 }
+.comillas{
+    font-size: 34px;
+    color: #f4e801;
+}
+.imagenComentarios{
+    border-radius: 50%;
+    width: 60px !important;
+}
