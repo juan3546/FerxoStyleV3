@@ -19,25 +19,25 @@
                 <h1 class="font-weight-blod mb-4">Envia tus comentarios</h1>
                 
                     <div class="mb-4">
-                        <label for="nombrePersonalizados" class="form-label font-weight-blod">Nombre</label>
-                        <input type="text" class="form-control bg-ligth-x  " id="nombrePersonalizados" aria-describedby="emailHelp" placeholder="Nombre">
+                        <label for="nombrePersonalizados" class="form-label font-weight-blod">Nombre*</label>
+                        <input type="text" class="form-control bg-ligth-x  " name="nombrePersonalizados" id="nombrePersonalizados" aria-describedby="emailHelp" placeholder="Nombre">
                     </div>
                     <div class="mb-4">
-                        <label for="correoPersonalizados" class="form-label font-weight-blod">Correo</label>
-                        <input type="email" class="form-control bg-ligth-x  " id="correoPersonalizados" placeholder="Correo">
+                        <label for="correoPersonalizados" class="form-label font-weight-blod">Correo*</label>
+                        <input type="email" class="form-control bg-ligth-x  " id="correoPersonalizados" name="correoPersonalizados" placeholder="Correo">
                     </div>
                     <div class="mb-4">
                         <label for="telefonoPersonalizados" class="form-label font-weight-blod">Telefono</label>
-                        <input type="text" class="form-control bg-ligth-x  " id="telefonoPersonalizados" placeholder="Telefono">
+                        <input type="text" class="form-control bg-ligth-x  " id="telefonoPersonalizados" name="telefonoPersonalizados" placeholder="Telefono">
                     </div>
 
                     <div class="mb-4">
-                        <label for="cantidadPersonalizados" class="form-label font-weight-blod">Cantidad</label>
-                        <input type="text" class="form-control bg-ligth-x  " id="cantidadPersonalizados" placeholder="Cantidad">
+                        <label for="cantidadPersonalizados" class="form-label font-weight-blod">Cantidad*</label>
+                        <input type="number" class="form-control bg-ligth-x  " id="cantidadPersonalizados" name="cantidadPersonalizados" placeholder="Cantidad">
                     </div>
                     <div class="mb-4">
-                        <label for="detallePersonalizados" class="form-label font-weight-blod">Detalla jersey</label>
-                        <textarea class="form-control bg-ligth-x  " id="detallePersonalizados" placeholder="Detalla jersey"></textarea>
+                        <label for="detallePersonalizados" class="form-label font-weight-blod">Detalla jersey*</label>
+                        <textarea class="form-control bg-ligth-x  " id="detallePersonalizados" name="detallePersonalizados" placeholder="Detalla jersey"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-warning text-white w-100 mt-auto">Enviar</button>
