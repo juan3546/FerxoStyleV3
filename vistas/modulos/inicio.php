@@ -42,52 +42,112 @@
   <div class="linea text-center align-content-center justify-content-center m-auto mt-2"></div>
  </div>
  <div class="row container-fluid">
- <div class="mt-5 col-12 pb-4 align-content-center justify-content-center" id="carruselProductos">
+ <div class="mt-5 pb-4 align-content-center justify-content-center" id="carruselProductos">
    <div class="owl-carousel owl-theme mb-4">
    <div class="item">
-     <div class="card tarjeta" >
-       <img src="vistas/img/plantilla/Modelo2.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
-      <div class="card-body">
-       <h5 class="card-title text-center">Modelo 1</h5>
-       <p class="text-center text-danger precio">$400</p>
+   <div class="col">
+      <div class="card tarjetass mt-3">
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/Modelo2.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+        </div>
       </div>
-     </div>
+    </div>
    </div>
   <div class="item">
-    <div class="card tarjeta" >
-       <img src="vistas/img/plantilla/Modelo3.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 2</h5>
-       <p class="text-center text-danger precio">$400</p>
+  <div class="col">
+      <div class="card tarjetass mt-3">
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/Modelo3.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+        </div>
+      </div>
     </div>
-     </div>
     </div>
   <div class="item">
-    <div class="card tarjeta" >
-       <img src="vistas/img/plantilla/Modelo4.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 3</h5>
-       <p class="text-center text-danger precio">$400</p>
+  <div class="col">
+      <div class="card tarjetass mt-3">
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/Modelo4.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+        </div>
+      </div>
     </div>
-     </div>
   </div>
   <div class="item">
-    <div class="card tarjeta" >
-       <img src="vistas/img/plantilla/Modelo5.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 4</h5>
-       <p class="text-center text-danger precio">$400</p>
+  <div class="col">
+      <div class="card tarjetass mt-3">
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/Modelo5.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+        </div>
+      </div>
     </div>
-     </div>
     </div>
   <div class="item">
-    <div class="card tarjeta" >
-       <img src="vistas/img/plantilla/playera1.png" style="opacity: 1; height: 177px;"  class="card-img-top owl-lazy" alt="...">
-    <div class="card-body">
-       <h5 class="card-title text-center">Modelo 5</h5>
-       <p class="text-center text-danger precio">$400</p>
+  <div class="col">
+      <div class="card tarjetass mt-3">
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/Modelo2.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+        </div>
+      </div>
     </div>
-     </div>
     </div>
    </div>
  </div>
