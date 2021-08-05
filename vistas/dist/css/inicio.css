@@ -90,3 +90,45 @@
     border-radius: 50%;
     width: 60px !important;
 }
+.likes{
+    font-size: 1.5rem;
+}
+.tarjetass{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform .3s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.tarjetass:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+   
+}
+.text1{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+.info{
+    line-height: 17px;
+}
+.shoe{
+    background: #86B324;
+    font-weight: bold;
+}
+.shoe:hover{
+    opacity: .8;
+}
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.likee{
+    color: blue;
+}
+.likee2{
+    color: red;
+}

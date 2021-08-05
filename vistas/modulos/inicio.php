@@ -16,14 +16,21 @@
 <section id="categorias" class="container mt-5 mb-5">
   <div class="row">
     <div class="col-md-4">
-      <div class="card mt-3">
+      <div class="card tarjetass mt-3">
         <div class="product-1 align-items-center p-2 text-center"> 
-          <img src="vistas/img/plantilla/hombres.jpg" class="rounded" alt="" width="160">
-          <h5>Hombres</h5>
-          <div class="m-3 info">
-             <span class="text1 d-block">Lorem ipsum dolor sit</span>
-             <span class="text1">Lorem ipsum dolor sit</span>
+          <img src="vistas/img/plantilla/Modelo2.png" class="rounded" alt="" width="100%">
+          <h5 class="mt-2">Modelo 1</h5>
+          <div class="cost mt-3 text-dark">
+            <span>$69.52</span>
+             <div class="star mt-3 align-items-center">
+               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
+               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
+             </div>
           </div>
+        </div>
+        <!-- button -->
+        <div class="p-3 shoe text-center text-white mt-3 cursor">
+         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
         </div>
       </div>
     </div>
