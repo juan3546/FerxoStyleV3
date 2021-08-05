@@ -1,3 +1,4 @@
+ <!-- seccion de la imagen del banner  -->
 <section id="=ImagenYTextoBanner" >
   <div class="card parallax" >
   <div class="card-img-overlay mt-5 d-flex">
@@ -10,47 +11,16 @@
   </div>
 </div>
 </section>
-<section id="categorias" class="container-fluid mt-5">
+<!--fin seccion de la imagen del banner  -->
+<!-- seccion que muestra las categorias de los productos hombre, mujer y niños -->
+<section id="categorias" class="container mt-5 mb-5">
   <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-    <h5 class="text-dark">HOMBRES</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/hombres.jpg" class="card-img-top" >  
-    </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-    <h5 class="text-dark">NIÑOS</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/ninios.jpg" class="card-img-top" >  
-    </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-    <h5 class="text-dark">MUJERES</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/mujeres.jpg" class="card-img-top" >  
-    </div>
-    </div>
- <!-- <div class="row row-cols-2 row-cols-md-3 g-5" >
-  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
-  <h5 class="text-dark">HOMBRES</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/hombres.jpg" class="card-img-top" >  
+    <div class="col-md-4">
+      <div class="card mt-3">
+
+      </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
-  <h5 class="text-dark">NIÑOS</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/ninios.jpg" class="card-img-top" >  
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 tarjetas">
-  <h5 class="text-dark">MUJERES</h5>
-    <div class="card"> 
-      <img src="<?php echo $url; ?>vistas/img/plantilla/mujeres.jpg" class="card-img-top" >  
-    </div>
-  </div>
-</div> -->
- </div>
 </section>
 <section id="NuevosProductos" class="container-fluid mt-5">
  <div class="row d-flex">

@@ -24,7 +24,11 @@
 .precio{
     font-size: 1.2rem;
 }
-
+/*
+.tarjeta:hover{
+    box-shadow: 0 0 8px 3px #ccc;
+}
+*/
 .tarjeta{
     height: 268px;
 }
