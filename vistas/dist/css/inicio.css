@@ -99,8 +99,8 @@
     background-color: #fff;
     border-radius: 20px;
     transition: transform .3s;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 .tarjetass:hover{
     transform: translateY(-15px);
@@ -115,7 +115,7 @@
     line-height: 17px;
 }
 .shoe{
-    background: #86B324;
+    background: #4EA5D4;
     font-weight: bold;
 }
 .shoe:hover{
@@ -129,6 +129,12 @@
 .likee{
     color: blue;
 }
+.likee:hover{
+    cursor: pointer;
+}
 .likee2{
     color: red;
+}
+.likee2:hover{
+    cursor: pointer;
 }
