@@ -14,23 +14,28 @@
 <!--fin seccion de la imagen del banner  -->
 <!-- seccion que muestra las categorias de los productos hombre, mujer y niños -->
 <section id="categorias" class="container mt-5 mb-5">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card tarjetass mt-3">
-        <div class="product-1 align-items-center p-2 text-center"> 
-          <img src="vistas/img/plantilla/Modelo2.png" class="rounded" alt="" width="100%">
-          <h5 class="mt-2">Modelo 1</h5>
-          <div class="cost mt-3 text-dark">
-            <span>$69.52</span>
-             <div class="star mt-3 align-items-center">
-               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
-               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
-             </div>
-          </div>
+  <div class="row mt-5">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <div class="card bg-dark text-white">
+        <img src="vistas/img/plantilla/hombres.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+         <h3 class="card-title">Hombres</h3>
         </div>
-        <!-- button -->
-        <div class="p-3 shoe text-center text-white mt-3 cursor">
-         <span class="text-uppercase botonCarrito">Agregar a pedido</span>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="card bg-dark text-white">
+        <img src="vistas/img/plantilla/ninios.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+         <h3 class="card-title">Niños</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="card bg-dark text-white">
+        <img src="vistas/img/plantilla/mujeres.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+         <h3 class="card-title">Mujeres</h3>
         </div>
       </div>
     </div>
