@@ -17,9 +17,6 @@ $servidor =  Ruta::ctrRutaServidor();
           <a class="nav-link text-dark" href="#">Productos </a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-dark" href="#" >Personalizados</a>
-        </li>
-        <li class="nav-item mx-3">
           <a class="nav-link text-dark" href="<?php echo $url; ?>personalizados">Pedidos personalizados</a>
         </li>
         <li class="nav-item mx-3">

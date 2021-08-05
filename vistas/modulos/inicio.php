@@ -17,7 +17,14 @@
   <div class="row">
     <div class="col-md-4">
       <div class="card mt-3">
-
+        <div class="product-1 align-items-center p-2 text-center"> 
+          <img src="vistas/img/plantilla/hombres.jpg" class="rounded" alt="" width="160">
+          <h5>Hombres</h5>
+          <div class="m-3 info">
+             <span class="text1 d-block">Lorem ipsum dolor sit</span>
+             <span class="text1">Lorem ipsum dolor sit</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
