@@ -165,7 +165,7 @@
    </div>
    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5">
     <p class="text-center mt-4">Disponible exclusivamente en FerxoStyle</p>
-    <!-- <h1 class="text-text-left mx-4 mt-3" id="ModeloPersonalizado">Modelos <br> Personalizados</h1> -->
+     <h4 class="text-left mt-3" id="ModeloPersonalizado">Modelos <br> Personalizados</h4> 
     <p class="pl-5 p-4 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium eligendi sed facilis mollitia maxime cumque rem sint labore, aperiam aut ex recusandae, neque temporibus, totam minima perferendis iusto. Quod?
       llendus minus optio voluptatum labore expedita magnam alias.
     </p>
@@ -173,17 +173,90 @@
    </div>
  </div>
 </section>
+<!-- Seccion de carrusel de comentarios -->
 <section id="comentarios" class="mt-5">
-<div class="mt-5 col-12 pb-4 align-content-center justify-content-center" id="carruselProductos">
-   <div class="owl-carousel owl-theme mb-4">
-   <div class="item">
-     <div class="card tarjeta" style="width: 80%">
-      <div class="card-body text-center">
-         <i class="fas fa-quote-left comillas mt-4"></i>
-          <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore sed rem assumenda, blanditiis voluptates! Dolorem harum vel, odio corporis animi enim quasi alias id, blanditiis porro sit iusto obcaecati?</p>
-          <img src="vistas/img/plantilla/user-1.png" alt="" class="imagenComentarios mt-4 mx-auto">
-          <h5>Cristina</h5>
-      </div>
+ <div class="container">
+   <h2 class=" pb-3 text-center section-header">Nuestros Clientes</h2>
+   <div class="linea text-center align-content-center justify-content-center m-auto mt-0"></div>
+   <div class="testimonial-view">
+     <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <div class="block">
+             <div class="row">
+               <div class="col-md-5">
+                 <div class="user">
+                   <div class="image">
+                     <img src="vistas/img/plantilla/user-1.png" alt="">
+                   </div>
+                   <div class="info">
+                     <h2 class="user-name">Alan</h2>
+                     <h4>Cliente</h4>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="content">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <div class="block">
+             <div class="row">
+               <div class="col-md-5">
+                 <div class="user">
+                   <div class="image">
+                     <img src="vistas/img/plantilla/user-2.png" alt="">
+                   </div>
+                   <div class="info">
+                     <h2 class="user-name">Cristina</h2>
+                     <h4>Cliente</h4>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="content">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <div class="block">
+             <div class="row">
+               <div class="col-md-5">
+                 <div class="user">
+                   <div class="image">
+                     <img src="vistas/img/plantilla/user-2.png" alt="">
+                   </div>
+                   <div class="info">
+                     <h2 class="user-name">Cristina</h2>
+                     <h4>Cliente</h4>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="content">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previo</span>
+       </a>
+       <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previo</span>
+       </a>
      </div>
    </div>
+ </div>
 </section>

@@ -79,7 +79,7 @@
     background: radial-gradient(#fff, #beffaa);
 }
 #ModeloPersonalizado{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 60px;
 }
 .comillas{
@@ -145,5 +145,71 @@
     background-position: center ;
     background-repeat: no-repeat;
     background-size: 45%;
-    
+}
+
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonial-view{
+    max-width: 900px;
+    padding: 0 15px 50px !important;
+    margin: 0 auto 70px auto;
+    border-radius: 3px;
+}
+
+.block{
+    background: #fff;
+    color: #333;
+    padding: 60px 15px 15px !important;
+    margin: 50px 50px !important;
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+}
+.block .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-items: normal;
+}
+.user{
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+.image{
+    position: relative;
+    margin: 0 15px 30px 15px !important;
+}
+.image img{
+    height: 170px;
+    width: 170px;
+    border: 7px solid #ffdfb8;
+    border-radius: 170px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.user-name{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+}
+.content{
+    text-align: center;
+    font-size: 18px;
+}
+.carousel-control-prev{
+    left: -50px;
+}
+.carousel-control-next{
+    right: -50px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
 }
