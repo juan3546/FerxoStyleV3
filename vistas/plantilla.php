@@ -33,6 +33,8 @@ $url =  Ruta::ctrRuta();
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/inicio.css">
     <!-- Estilos de login -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/login.css">
+    <!-- Estilos de pie -->
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/pie.css">
     <!-- Estilos de iconos -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/dist/css/icons.css">
     <!-- Estilos de grid -->

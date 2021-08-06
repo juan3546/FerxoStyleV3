@@ -57,10 +57,6 @@
           <h5 class="mt-2">Modelo 1</h5>
           <div class="cost mt-3 text-dark">
             <span>$69.52</span>
-             <div class="star mt-3 align-items-center">
-               <span class="mx-4 "><i class="fas fa-thumbs-up mx-2 likes likee"></i>0</span>
-               <span class="mx-4 "><i class="fas fa-thumbs-down mx-2 likes likee2"></i>0</span>
-             </div>
           </div>
         </div>
         <!-- button -->
@@ -179,7 +175,7 @@
    <h2 class=" pb-3 text-center section-header">Nuestros Clientes</h2>
    <div class="linea text-center align-content-center justify-content-center m-auto mt-0"></div>
    <div class="testimonial-view">
-     <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+     <div class="carousel carousel-dark slide" id="testimonialCarousel" data-ride="carousel">
      <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
