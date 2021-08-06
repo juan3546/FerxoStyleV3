@@ -138,3 +138,12 @@
 .likee2:hover{
     cursor: pointer;
 }
+#imagen-verde{
+    
+    background: url("../../img/plantilla/playera1.png"); 
+    
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    
+}

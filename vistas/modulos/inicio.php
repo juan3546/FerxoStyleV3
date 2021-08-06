@@ -14,25 +14,25 @@
 <!--fin seccion de la imagen del banner  -->
 <!-- seccion que muestra las categorias de los productos hombre, mujer y niños -->
 <section id="categorias" class="container mt-5 mb-5">
-  <div class="row mt-5">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <div class="card bg-dark text-white">
+  <div class="row ">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+      <div class="card tarjetass bg-dark text-white">
         <img src="vistas/img/plantilla/hombres.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
          <h3 class="card-title">Hombres</h3>
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-    <div class="card bg-dark text-white">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+    <div class="card tarjetass bg-dark text-white">
         <img src="vistas/img/plantilla/ninios.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
          <h3 class="card-title">Niños</h3>
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-    <div class="card bg-dark text-white">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+    <div class="card tarjetass bg-dark text-white">
         <img src="vistas/img/plantilla/mujeres.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
          <h3 class="card-title">Mujeres</h3>
@@ -158,18 +158,18 @@
  </div>
  </div>
 </section>
-<section id="verde" class="mt-4 px-4 ">
- <div class="row container-fluid mb-2 d-flex">
-   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto">
-      <img class="m-auto" src="vistas/img/plantilla/playera1.png" alt="" id="imagen-verde" width="50%">
+<section id="verde" class="mt-5 px-4 ">
+ <div class="row container-fluid mb-2 ">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 " id="imagen-verde">
+      <!-- <img class="m-auto" src="vistas/img/plantilla/playera1.png" alt="" id="imagen-verde" width="50%"> -->
    </div>
-   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5">
     <p class="text-center mt-4">Disponible exclusivamente en FerxoStyle</p>
     <!-- <h1 class="text-text-left mx-4 mt-3" id="ModeloPersonalizado">Modelos <br> Personalizados</h1> -->
     <p class="pl-5 p-4 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium eligendi sed facilis mollitia maxime cumque rem sint labore, aperiam aut ex recusandae, neque temporibus, totam minima perferendis iusto. Quod?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id architecto perferendis cum rerum voluptatibus a esse, eveniet consectetur neque necessitatibus, cupiditate repellendus minus optio voluptatum labore expedita magnam alias.
+      llendus minus optio voluptatum labore expedita magnam alias.
     </p>
-    <button class="btn btn-warning botonH px-3">Explorar <i class="fas fa-arrow-circle-right mx-2"></i></button>
+    <button class="btn btn-warning botonH px-3 mb-5">Explorar <i class="fas fa-arrow-circle-right mx-2"></i></button>
    </div>
  </div>
 </section>
