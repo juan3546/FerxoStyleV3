@@ -197,7 +197,7 @@
                </div>
                <div class="col-md-6">
                  <div class="content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam.</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio recusandae blanditiis nisi. Incidunt, rem alias corporis aspernatur recusandae eos corrupti fugiat aut sit non, porro necessitatibus fuga autem. Eius.</p>
                  </div>
                </div>
              </div>
