@@ -180,6 +180,11 @@
    <div class="linea text-center align-content-center justify-content-center m-auto mt-0"></div>
    <div class="testimonial-view">
      <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
        <div class="carousel-inner">
          <div class="carousel-item active">
            <div class="block">
@@ -248,103 +253,15 @@
            </div>
          </div>
        </div>
-       <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previo</span>
-       </a>
-       <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previo</span>
-       </a>
+       <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
      </div>
    </div>
  </div>
 </section>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <div class="block">
-             <div class="row">
-               <div class="col-md-5">
-                 <div class="user">
-                   <div class="image">
-                     <img src="vistas/img/plantilla/user-1.png" alt="">
-                   </div>
-                   <div class="info">
-                     <h2 class="user-name">Alan</h2>
-                     <h4>Cliente</h4>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-6">
-                 <div class="content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio recusandae blanditiis nisi. Incidunt, rem alias corporis aspernatur recusandae eos corrupti fugiat aut sit non, porro necessitatibus fuga autem. Eius.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-    </div>
-    <div class="carousel-item">
-    <div class="block">
-             <div class="row">
-               <div class="col-md-5">
-                 <div class="user">
-                   <div class="image">
-                     <img src="vistas/img/plantilla/user-2.png" alt="">
-                   </div>
-                   <div class="info">
-                     <h2 class="user-name">Angel</h2>
-                     <h4>Cliente</h4>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-6">
-                 <div class="content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio recusandae blanditiis nisi. Incidunt, rem alias corporis aspernatur recusandae eos corrupti fugiat aut sit non, porro necessitatibus fuga autem. Eius.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-    </div>
-    <div class="carousel-item">
-    <div class="block">
-             <div class="row">
-               <div class="col-md-5">
-                 <div class="user">
-                   <div class="image">
-                     <img src="vistas/img/plantilla/user-3.png" alt="">
-                   </div>
-                   <div class="info">
-                     <h2 class="user-name">Juan</h2>
-                     <h4>Cliente</h4>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-6">
-                 <div class="content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro incidunt maiores ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio recusandae blanditiis nisi. Incidunt, rem alias corporis aspernatur recusandae eos corrupti fugiat aut sit non, porro necessitatibus fuga autem. Eius.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<br>
-<br>
-<br>

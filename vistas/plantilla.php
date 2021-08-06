@@ -40,6 +40,7 @@ $url =  Ruta::ctrRuta();
     <!-- Estilos bootstrap -->
     <!-- link rel="stylesheet" href="vistas/libs/bootstrap/css/bootstrap.min.css" -->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/bootstrap/css/bootstrap.min.css" >
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/OwlCarousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/libs/OwlCarousel/css/owl.theme.default.css">
 
